@@ -1,7 +1,144 @@
+/*
+Last steps: Added Mulish font-files (under assets/fonts), 
+modified styles.scss to add fonts by use of @font-face, 
+did "npm run build:dev" on terminal,
+modified styles.scss to change h1 font to Mulish
+did "npm run build:dev" on terminal, and it worked!
+
+Added Mulish font-files, modified styles.scss to add fonts and change h1 font to Mulish
+*/
+
+
+// ** FONT MULISH **
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-Black.woff) format(woff);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-BlackItalic.woff) format(woff);
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-Bold.woff) format(woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-BoldItalic.woff) format(woff);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-ExtraBold.woff) format(woff);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-ExtraBoldItalic.woff) format(woff);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-ExtraLight.woff) format(woff);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-ExtraLightItalic.woff) format(woff);
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-Italic-VariableFont_wght.woff) format(woff);
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-Italic.woff) format(woff);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-Light.woff) format(woff);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-LightItalic.woff) format(woff);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/Mulish-VariableFont_wght.woff) format(woff);
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/mulish-medium.woff) format(woff);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/mulish-mediumitalic.woff) format(woff);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/mulish-regular.woff) format(woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/mulish-semibold.woff) format(woff);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(assets/fonts/mulish-semibolditalic.woff) format(woff);
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
 $h1-color: rgb(5, 81, 91);
 
 h1 {
     color: $h1-color;
+    font-family: Mulish;
 }
 
 header {
