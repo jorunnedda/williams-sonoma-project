@@ -1,0 +1,18 @@
+$h1-color: rgb(5, 81, 91);
+
+h1 {
+    color: $h1-color;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    background-image: url("./images/logo.jpg");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 400px;
+    margin: 20px auto 20px auto;
+}
